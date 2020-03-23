@@ -41,18 +41,18 @@ export const fetchSuggestions = (query = '') => {
       }
 
 //
-      dispatch({
-        type: actions.search.suggestions.fetch.fulfilled,
-        payload: {data:[
-          {name: faker.commerce.department()},
-          {name: faker.commerce.department()},
-          {name: faker.commerce.department()},
-          {name: faker.commerce.department()},
-          {name: faker.commerce.department()},
+      // dispatch({
+      //   type: actions.search.suggestions.fetch.fulfilled,
+      //   payload: {data:[
+      //     {name: faker.commerce.department()},
+      //     {name: faker.commerce.department()},
+      //     {name: faker.commerce.department()},
+      //     {name: faker.commerce.department()},
+      //     {name: faker.commerce.department()},
 
-        ]},
-      });
-      return;
+      //   ]},
+      // });
+      // return;
 //
 
       // Should check local storage first

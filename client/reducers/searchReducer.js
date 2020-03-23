@@ -20,11 +20,11 @@ export default (state = initialState, action) => {
 
     case actions.search.suggestions.fetch.fulfilled: {
    //
-      const suggestions2 = action.payload.data;
-      return {
-        ...state,
-        suggestions2,
-      };
+      // const suggestions2 = action.payload.data;
+      // return {
+      //   ...state,
+      //   suggestions2,
+      // };
    //
       const query = action.payload.config.url.replace('/api/maps/?q=', '');
       const suggestions = action.payload.data;
