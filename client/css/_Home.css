@@ -1,0 +1,101 @@
+.title, .opensource-badge {
+    /*center-row-horizontal*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.opensource-badge {
+    /*center-row-vertical*/
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.title{
+    color: #ffffff;
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 12vh;
+}
+  
+
+
+.opensource-badge {
+    background-color: #ffffff;
+    bottom: 8vh;
+    padding: .3em;
+    position: absolute;
+    right: -13vh;
+    transform: rotate(-45deg);
+    width: 45vh;
+
+}
+
+.opensource-badge img{
+    height: 25px;
+    width: 25px;
+}
+
+.opensource-text{
+    padding-left: 15px;
+}
+
+
+
+.help-text{
+    color: #8a919a;
+    flex-direction: column;
+    flex-wrap: wrap;
+    line-height: 1.8em;
+    margin-top: 40px;
+    text-align: center;
+}
+  
+.help-text a{
+    color: #8a919a;
+    text-underline-position: under;
+}
+
+/*     
++respond-to($width-xs)
+  .title,
+  .help-text
+    justify-content: flex-start
+    margin: .3em 0
+    padding: 12px 50px
+    width: 100%
+
+  .title
+    font-size: 2.3em
+
+  .help-text
+    font-size: 1em
+    text-align: left
+
+
++respond-to($width-xxs)
+  .title,
+  .help-text
+    margin: .5em 0
+    padding: 12px 25px
+
+  .title
+    font-size: 2em
+
+  .help-text
+    font-size: .8em
+
+@media (max-height: 400px)
+  .title,
+  .help-text,
+  .bm-burger-button
+    display: none
+
+  .searchbar-container
+    padding-top: 20px
+
+  .searchbar-suggestions-container
+    max-height: calc(100% - 90px)
+ */

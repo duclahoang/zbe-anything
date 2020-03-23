@@ -1,0 +1,44 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.app-container>div {
+  
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #222324;
+  font-family: "Raleway", sans-serif ;
+  justify-content: flex-start;
+  margin: 0;
+}
+  
+
+.title-text {
+  text-transform: capitalize;
+}
+/* 
+  // +respond-to($width-extra-small)
+  //   font-size: 12px
+
+
+// @keyframes scaleout
+//   0%
+//     transform: scale(0)
+
+//   100%
+//     opacity: 0
+//     transform: scale(1)
+
+
+// .spinner
+//   animation: scaleout 1s infinite ease-in-out
+//   border-radius: 100%
+//   height: 40px
+//   margin: 100px auto
+//   width: 40px */
